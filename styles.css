@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    color:black;
+    max-width: 900px;
+    margin: auto;
+}
+ 
+header {
+    margin: 35px 0;
+    font-size: 25px;
+    padding: 50px 0;   
+}
+
+/* learned how to add image with text overlap*/
+header h2 {
+    padding-top: 10px;
+    background-image: url(images/index-milton.jpg);
+    padding-bottom: 400px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: brown;
+}
+
+/* add a hover color */  
+a:hover {
+    color: green;
+}
+
+nav ul li {
+    display:inline-block;
+    text-align:center;
+    padding-left: 80px;
+    font-size: 22px;
+}
+
+/* change font-size and color of 1 element */
+h1{
+    color: lightcoral;
+    font-size: 45px;
+}
+
+/* change background color of one element */
+h2 {
+    color:black;
+    font-size: 20px;
+    background-color: bisque;     
+}
+
+/* combined css selector */
+article.about {
+    text-align: left;
+    padding: 0 0px 25px;
+    font-size: 20px;
+}
+
+article #about, #extra {
+    font-size: 25px;
+}
+
+article.artwork {
+    text-align: left;
+    padding: 0 0 30px;
+}
+
+article #artwork {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+ 
+/* center text of 1 element */
+article blockquote p{
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    padding-top: 4px;
+}
+
+
+article #blockquote {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* center images */
+figure {
+    display: block;
+    padding-left: 200px;
+    
+}
+
+.extra {
+    text-align: left;  
+    margin-top: 0px;
+    font-size: 20px;  
+}
+
+/* css coombinator-using > */
+.extra > p{
+    color:green
+}
+
+footer {
+    font-size: 18px;
+    padding: 0 10px 20px 30px
+}
+
+footer h3{
+    font-size: 22px;
+    
+}
+ 
